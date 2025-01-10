@@ -1,10 +1,11 @@
 <script setup>
-// import HelloWorld from './components/HelloWorld.vue'
+import Navbar from './components/Navbar.vue'
 // import TheWelcome from './components/TheWelcome.vue'
 </script>
 
 <template>
   <header>
+    <Navbar />
   </header>
 
   <main>

@@ -1,6 +1,6 @@
 <script setup>
 import Navbar from './components/Navbar.vue'
-// import TheWelcome from './components/TheWelcome.vue'
+import HeroSection from './components/HeroSection.vue'
 </script>
 
 <template>
@@ -9,6 +9,7 @@ import Navbar from './components/Navbar.vue'
   </header>
 
   <main>
+    <HeroSection />
   </main>
 </template>
 
